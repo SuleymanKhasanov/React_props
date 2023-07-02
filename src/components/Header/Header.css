@@ -1,0 +1,56 @@
+.header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #000;
+}
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.logo__text {
+  font-size: 30px;
+  color: #d8d8d8;
+}
+
+.logo-acent {
+  color: rgb(255, 94, 0);
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.menu__links {
+  color: #d8d8d8;
+  padding: 10px;
+  transition: all 0.7s ease;
+}
+
+.menu__links:hover {
+  color: rgb(255, 94, 0);
+}
+
+.search__input {
+  background: #252525;
+  padding: 10px 20px 10px 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: 1px solid #333;
+  width: 250px;
+  color: #d8d8d8;
+  outline: none;
+}
+
+.search__btn {
+  background: #252525;
+  border: 1px solid #333;
+  color: #d8d8d8;
+  outline: none;
+  padding: 10px 20px 10px 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}

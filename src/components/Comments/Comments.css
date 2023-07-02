@@ -1,0 +1,21 @@
+.coments {
+  width: 80%;
+  margin: 30px auto;
+  display: flex;
+  align-items: center;
+}
+
+.coments__user-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  object-fit: cover;
+}
+
+.cooments__block {
+  width: 50%;
+  margin-left: 30px;
+  border-bottom: 1px solid #6d6d6d;
+  padding-bottom: 20px;
+}
